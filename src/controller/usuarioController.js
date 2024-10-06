@@ -34,7 +34,7 @@ endpoints.get('/usuario/', async (req, resp) =>{
 });
 
 
-endpoints.put('/usario/:id', async (req, resp) =>{
+endpoints.put('/usuario/:id', async (req, resp) =>{
     try {
         let id = req.params.id;
         let usuario = req.body;
